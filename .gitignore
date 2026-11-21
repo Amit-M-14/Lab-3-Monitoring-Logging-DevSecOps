@@ -1,0 +1,80 @@
+
+# ==============================
+# Secrets & Environment Variables
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+vault_password.txt
+
+# ==============================
+# Terraform
+# ==============================
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+terraform.rc
+.terraformrc
+
+# Keep lock file for reproducibility
+# DO NOT ignore .terraform.lock.hcl
+
+# ==============================
+# Ansible
+# ==============================
+*.retry
+vault.yml
+vault.yaml
+vault_password_file
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# ==============================
+# Docker
+# ==============================
+*.log
+docker-compose.override.yml
+
+# ==============================
+# Logs
+# ==============================
+logs/
+log/
+*.log
+
+# ==============================
+# IDE & OS
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Backup files
+# ==============================
+*.bak
+*.backup
+*.tmp
+*~
