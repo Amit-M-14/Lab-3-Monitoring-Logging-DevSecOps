@@ -17,4 +17,4 @@ def flags():
     with open("flags.json") as f:
         return f.read()
 
-app.run(host="0.0.0.0", port=5060)
+app.run(host="0.0.0.0", port=8080)
